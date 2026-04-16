@@ -61,6 +61,10 @@ def num_islands_dfs(grid: list) -> int:
     if not grid:
         return 0
 
+    # 입력 그리드를 변경하지 않기 위해 복사본에서 작업
+    # (방문 처리를 위해 '1' -> '0'으로 덮어쓰므로, 원본을 보존하려면 복사가 필요)
+    grid = [row[:] for row in grid]
+
     rows = len(grid)
     cols = len(grid[0])
     count = 0
@@ -70,7 +74,7 @@ def num_islands_dfs(grid: list) -> int:
         if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] != "1":
             return
 
-        # 현재 셀을 물('0')로 변경하여 방문 처리 (별도 visited 불필요)
+        # 현재 셀을 물('0')로 변경하여 방문 처리 (복사본이므로 원본은 그대로)
         grid[r][c] = "0"
 
         # 상하좌우로 재귀 탐색
