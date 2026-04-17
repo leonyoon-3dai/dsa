@@ -756,6 +756,60 @@ quadrantChart
 
 ---
 
+## 🌱 다음 단계: 더 공부하면 좋은 토픽들
+
+위 5가지 핵심 토픽을 마스터했다면, 아래 **12가지 확장 토픽**으로 실력을 한 단계 끌어올려보세요. 실전 코딩테스트 고난도 문제와 1:1로 대응됩니다.
+
+<p align="center">
+  <img src="assets/next_topics.svg" alt="다음 단계 학습 추천 토픽" width="100%"/>
+</p>
+
+### ⭐ 필수 테크닉 (Essential Techniques)
+
+| # | 토픽 | 핵심 아이디어 | 대표 문제 |
+|:-:|:----|:----|:----|
+| 6️⃣ | **Hashing / HashMap** | O(1) 평균 탐색 — 빈도 세기, 중복 판별, 짝 찾기 | Two Sum, Group Anagrams |
+| 7️⃣ | **Binary Search** | 정렬된 배열에서 O(log n) — "답을 이분 탐색"도 가능 | Search in Rotated Array, 파라메트릭 서치 |
+| 8️⃣ | **Two Pointers / Sliding Window** | 두 포인터를 동시에 이동해 O(n)에 해결 | 3Sum, Longest Substring Without Repeating |
+| 9️⃣ | **Backtracking** | 가능한 모든 경우를 시도하되 불가능하면 되돌아감 | 순열/조합, N-Queens, 스도쿠 |
+
+### 🏗️ 자료구조 심화 (Advanced Data Structures)
+
+| # | 토픽 | 핵심 아이디어 | 대표 문제 |
+|:-:|:----|:----|:----|
+| 🔟 | **Heap / Priority Queue** | 최대·최소값을 O(log n)에 유지 | Top-K Elements, Merge K Sorted Lists |
+| 1️⃣1️⃣ | **Stack / Queue / 단조 스택** | LIFO/FIFO로 순서 있는 작업 처리 | 괄호 검증, Next Greater Element |
+| 1️⃣2️⃣ | **Union-Find (DSU)** | 연결 요소를 거의 O(1)에 합치고 찾기 | Kruskal MST, 친구 관계 그룹 |
+| 1️⃣3️⃣ | **Trie (접두사 트리)** | 문자열을 트리로 — 접두사 검색에 최적 | 자동완성, Word Search II |
+
+### 🎓 고급 알고리즘 (Advanced Algorithms)
+
+| # | 토픽 | 핵심 아이디어 | 대표 문제 |
+|:-:|:----|:----|:----|
+| 1️⃣4️⃣ | **String Algorithms** | 문자열 패턴 매칭을 선형 시간에 | KMP, Rabin-Karp, Manacher |
+| 1️⃣5️⃣ | **Bit Manipulation** | 비트 단위 연산으로 집합·상태 압축 | XOR 트릭, 비트마스크 DP |
+| 1️⃣6️⃣ | **Segment Tree / Fenwick Tree** | 구간 쿼리·업데이트를 O(log n)에 | Range Sum Query, 구간 최솟값 |
+| 1️⃣7️⃣ | **Math / Number Theory** | GCD·소수·모듈러 — 수학적 직관 필요 | 에라토스테네스의 체, 조합 mod p |
+
+### 📈 추천 학습 순서
+
+```mermaid
+flowchart LR
+    A[✅ 5가지 핵심 토픽 완료] --> B[Hashing]
+    B --> C[Binary Search]
+    C --> D[Two Pointers]
+    D --> E[Heap/PQ]
+    E --> F[Backtracking]
+    F --> G[Union-Find]
+    G --> H[Trie]
+    H --> I[String / Bit / Segment Tree / Math]
+    I --> J[🏆 고난도 문제 정복]
+```
+
+> 💡 **팁**: 해시·이진 탐색·투 포인터는 기존 5가지 토픽 문제에서도 자주 조합돼서 나옵니다. 가장 먼저 익히세요!
+
+---
+
 ## 🚀 빠른 실행 가이드
 
 ```bash
