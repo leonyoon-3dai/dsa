@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-05-14 Codex 점검 메모
+
+- 현재 구성은 DP, Graph, Sorting, Tree, Greedy의 5축을 잘 잡고 있습니다. 실전 확장 순서는 Hash/Set, Stack/Queue/Deque, Binary Search, Heap/Priority Queue, Two Pointers/Sliding Window, Union-Find, Trie, Segment Tree/Fenwick Tree, Topological Sort, Shortest Path, Backtracking, Bitmask DP를 추가로 붙이면 균형이 좋아집니다.
+- Python 코딩테스트에서는 "알고리즘을 아는 것"과 "입출력/복잡도/경계값을 빠르게 처리하는 것"이 분리됩니다. 각 예제마다 시간복잡도, 공간복잡도, 실패하기 쉬운 edge case를 같이 읽는 방식으로 학습하세요.
+- `graph/__pycache__/`는 실행 중 생긴 캐시로 보이며 커밋 대상이 아닙니다. 필요하면 `.gitignore`에 `__pycache__/`를 추가하는 것이 좋습니다.
+
+---
+
 ## 📚 목차
 
 | # | 토픽 | 핵심 아이디어 | 바로가기 |
